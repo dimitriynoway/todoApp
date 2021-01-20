@@ -1,11 +1,11 @@
-IN MAIN FOLDER(TODOGIT)
+In todoApp folder
 
 ## npm i
 
-IN CLIENT FOLDER
+In client folder
 
 ## npm i
 
-IN TODOGIT FOLDER
+In todoApp folder
 
-npm run dev
+## npm run dev
