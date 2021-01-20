@@ -1,0 +1,143 @@
+.homeContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  height: 600px;
+  width: 900px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+
+  align-items: center;
+}
+.homeContainer h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.home {
+  background-color: #3d5a80;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+.registerLoginContainer {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.registerLoginContainer a {
+  color: white;
+  border: 3px solid white;
+  padding: 30px;
+  width: 220px;
+  border-radius: 5px;
+  text-decoration: none; /* no underline */
+  transition: 1s ease-out;
+  margin: 10px;
+}
+.registerLoginContainer a:hover {
+  transition: 1s ease-out;
+  color: black;
+
+  background-color: white;
+}
+.registerLoginContainer a h1 {
+  font-size: 28px;
+}
+strong {
+  color: white;
+}
+@media only screen and (max-width: 1024px) {
+  .homeContainer {
+    width: 700px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .home {
+    height: 1024px;
+  }
+  .homeContainer {
+    width: 80%;
+  }
+  .registerLoginContainer {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .registerLoginContainer a {
+    color: white;
+    border: 3px solid white;
+    padding: 18px;
+    width: 300px;
+    border-radius: 5px;
+    text-decoration: none; /* no underline */
+    transition: 1s ease-out;
+    margin: 20px;
+  }
+  .registerLoginContainer a:hover {
+    transition: 1s ease-out;
+    color: black;
+
+    background-color: white;
+  }
+  .registerLoginContainer a h1 {
+    font-size: 24px;
+  }
+  .homeContainer h1 {
+    font-size: 48px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .home {
+  }
+  .registerLoginContainer {
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .homeContainer {
+    width: 300px;
+  }
+
+  .registerLoginContainer a {
+    width: 100px;
+    border: 2px solid white;
+    padding: 16px;
+    margin: 7px;
+  }
+  .registerLoginContainer a h1 {
+    font-size: 16px;
+  }
+  .homeContainer h1 {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .home {
+    height: 762px;
+  }
+  .registerLoginContainer {
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .homeContainer {
+    width: 300px;
+  }
+
+  .registerLoginContainer a {
+    width: 120px;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 4px;
+  }
+  .registerLoginContainer a h1 {
+    font-size: 16px;
+  }
+  .homeContainer h1 {
+    font-size: 30px;
+  }
+}

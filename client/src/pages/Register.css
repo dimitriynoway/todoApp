@@ -1,0 +1,123 @@
+.register {
+  background-color: #3d5a80;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+.registerContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  height: 630px;
+  width: 550px;
+
+  display: flex;
+  flex-flow: column;
+}
+.registerContainer h1 {
+  font-size: 52px;
+}
+.register form {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.register h1 {
+  text-align: center;
+  padding: 100px 0 80px;
+  color: white;
+  font-weight: bold;
+}
+.register input {
+  padding: 20px;
+  margin: 10px;
+  width: 70%;
+  border-radius: 6px;
+  border: 1px solid white;
+}
+.register button {
+  font-size: 21px;
+  font-weight: 400;
+  width: 30%;
+  height: 65px;
+  margin: 20px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+div a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+div a:hover {
+  color: white;
+}
+.regOrLog {
+  width: 500px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.regOrLog p {
+  margin-bottom: 0px;
+}
+@media only screen and (max-width: 768px) {
+  .register {
+    height: 974px;
+  }
+  .registerContainer {
+    width: 60%;
+  }
+  .registerContainer h1 {
+    font-size: 40px;
+  }
+  .registerContainer button {
+    width: 40%;
+  }
+  .regOrLog {
+    margin-top: -5px;
+    padding: 0;
+    width: 40%;
+    font-size: 12px;
+    text-align: center;
+  }
+  .regOrLog a {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .register {
+    height: 762px;
+  }
+  .registerContainer {
+    width: 90%;
+  }
+  .registerContainer h1 {
+    font-size: 30px;
+  }
+  .registerContainer button {
+    width: 40%;
+    height: 50px;
+  }
+  .regOrLog {
+    margin-top: -5px;
+    padding: 0;
+    width: 40%;
+    font-size: 12px;
+    text-align: center;
+  }
+  .regOrLog a {
+    font-size: 14px;
+  }
+  .register button {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,11 @@
+IN MAIN FOLDER(TODOGIT)
+
+## npm i
+
+IN CLIENT FOLDER
+
+## npm i
+
+IN TODOGIT FOLDER
+
+npm run dev
